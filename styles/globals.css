@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .middle {
+    @apply w-[100%] mx-auto lg:w-[80%];
+  }
+
+}
+
+.text-white{
+  color: #fff;
+}
